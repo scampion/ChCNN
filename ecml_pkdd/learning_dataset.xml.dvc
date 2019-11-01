@@ -1,0 +1,7 @@
+md5: 299c78c79b8f36119288174d4701af57
+outs:
+- md5: 2fe823f9622cba2d20d597466032dae7
+  path: learning_dataset.xml
+  cache: true
+  metric: false
+  persist: false
