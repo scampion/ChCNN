@@ -4,7 +4,7 @@
     "alphabet": "abcdefghijklmnopqrstuvwxyz0123456789-,;.!?:'\"/\\|_@#$%^&*~`+-=<>()[]{}",
     "alphabet_size": 69,
     "input_size": 400,
-    "num_of_classes": 5,
+    "num_of_classes": 8,
     "training_data_source": "./_train.csv",
     "test_data_source": "./_test.csv",
     "validation_data_source": "./_validate.csv"
