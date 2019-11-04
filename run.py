@@ -1,12 +1,10 @@
 import json
 
-import numpy as np
 from keras.models import model_from_json
 
 from data_utils import Data
-from filter import Model, md5
+from maleta import Model, md5
 
-np.set_printoptions(precision=2)
 
 class ChCNN(Model):
     config = json.load(open("./config.json"))
@@ -23,7 +21,7 @@ class ChCNN(Model):
         data = self.validation_data.str_to_indexes(message.decode())
         a = self.model.predict([[data]])
         self.log(message, a)
-        return a
+        return a.tolist()
 
     @staticmethod
     def log(message, a):

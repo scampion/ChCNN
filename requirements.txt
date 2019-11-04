@@ -1,0 +1,2 @@
+kafka-python
+maleta==0.2
